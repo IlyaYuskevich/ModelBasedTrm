@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="nmvhhespi6r8svbwkj3n5qjrc89izh">
+  <files names="AttributeValue_Editor.java:AttributeValue_EditorBuilder_a.java:AttributeValue_SubstituteMenu.java:Attribute_Editor.java:Attribute_EditorBuilder_a.java:DimensionsWithoutTimeDef.java:DimensionsWithoutTimeDef_ComponentBuilder_a.java:Dimensions_Editor.java:Dimensions_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:ElementClassDef.java:ElementClassDef_ComponentBuilder_a.java:ElementClassOffDef.java:ElementClassOffDef_ComponentBuilder_a.java:ElementDef.java:ElementDef_ComponentBuilder_a.java:ElementEndDateClassOffDef.java:ElementEndDateClassOffDef_ComponentBuilder_a.java:Epoch_Editor.java:Epoch_EditorBuilder_a.java:Level_Editor.java:Level_EditorBuilder_a.java:LinkDef.java:LinkDef_ComponentBuilder_a.java:Scenario_Editor.java:Scenario_EditorBuilder_a.java" />
+</product>
+

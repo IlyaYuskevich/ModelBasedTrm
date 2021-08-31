@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,31,0" name="M2_AbstractLanguage.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:279a9831-98f7-4874-87ab-72f20ed47bc0(M2_AbstractLanguage.constraints)/494549096726485967">
+    <file name="AttributeValue_Constraints.java">
+      <node id="494549096726485967" at="27,39,28,38" concept="8" />
+      <node id="494549096726485968" at="35,44,36,20" concept="5" />
+      <node id="494549096726485968" at="43,63,44,57" concept="5" />
+      <node id="5134746991215249608" at="47,80,48,163" concept="4" />
+      <node id="5134746991215220068" at="49,205,50,229" concept="1" />
+      <node id="5134746991215229705" at="51,13,52,29" concept="5" />
+      <node id="494549096726485967" at="56,6,57,131" concept="4" />
+      <node id="494549096726485968" at="57,131,58,42" concept="1" />
+      <node id="494549096726485967" at="58,42,59,22" concept="5" />
+      <node id="494549096726485967" at="61,0,62,0" concept="6" trace="breakingNode_v5b4ie_a0a0a0a0a1a0a0a0c" />
+      <node id="494549096726485967" at="64,0,65,0" concept="6" trace="AttributeValue$6a" />
+      <node id="494549096726485967" at="65,0,66,0" concept="6" trace="Attribute$Yz" />
+      <node id="494549096726485967" at="69,0,70,0" concept="6" trace="attribute$kPu_" />
+      <node id="494549096726485967" at="70,0,71,0" concept="6" trace="element$HZNq" />
+      <node id="494549096726485967" at="71,0,72,0" concept="6" trace="refClass$qDn_" />
+      <node id="494549096726485967" at="72,0,73,0" concept="6" trace="attributes$44gy" />
+      <node id="494549096726485967" at="27,0,30,0" concept="0" trace="AttributeValue_Constraints#()V" />
+      <node id="5134746991215187862" at="48,163,51,13" concept="2" />
+      <node id="494549096726485968" at="34,0,38,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="494549096726485968" at="42,0,46,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="494549096726485968" at="46,0,54,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="494549096726485968" at="40,56,54,10" concept="5" />
+      <node id="494549096726485968" at="38,0,56,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="494549096726485968" at="32,90,56,6" concept="4" />
+      <node id="494549096726485967" at="31,0,61,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="494549096726485967" at="27,39,28,38" />
+      <scope id="494549096726485968" at="35,44,36,20" />
+      <scope id="494549096726485968" at="43,63,44,57" />
+      <scope id="5134746991215187864" at="49,205,50,229" />
+      <scope id="494549096726485967" at="27,0,30,0" />
+      <scope id="494549096726485968" at="34,0,38,0" />
+      <scope id="494549096726485968" at="42,0,46,0" />
+      <scope id="494549096726485968" at="47,80,52,29">
+        <var name="listScope" id="5134746991215249609" />
+      </scope>
+      <scope id="494549096726485968" at="46,0,54,0">
+        <var name="_context" id="494549096726485968" />
+      </scope>
+      <scope id="494549096726485968" at="40,56,54,10" />
+      <scope id="494549096726485968" at="38,0,56,0" />
+      <scope id="494549096726485967" at="32,90,59,22">
+        <var name="d0" id="494549096726485968" />
+        <var name="references" id="494549096726485967" />
+      </scope>
+      <scope id="494549096726485967" at="31,0,61,0" />
+      <unit id="494549096726485967" at="63,0,67,0" name="M2_AbstractLanguage.constraints.AttributeValue_Constraints$CONCEPTS" />
+      <unit id="494549096726485967" at="68,0,74,0" name="M2_AbstractLanguage.constraints.AttributeValue_Constraints$LINKS" />
+      <unit id="494549096726485968" at="41,19,54,9" name="M2_AbstractLanguage.constraints.AttributeValue_Constraints$1$1" />
+      <unit id="494549096726485968" at="33,48,56,5" name="M2_AbstractLanguage.constraints.AttributeValue_Constraints$1" />
+      <unit id="494549096726485967" at="26,0,75,0" name="M2_AbstractLanguage.constraints.AttributeValue_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:279a9831-98f7-4874-87ab-72f20ed47bc0(M2_AbstractLanguage.constraints)/494549096728804296">
+    <file name="ElementClass_Constraints.java">
+      <node id="494549096728804296" at="25,37,26,36" concept="8" />
+      <node id="494549096728804297" at="30,59,31,40" concept="8" />
+      <node id="494549096728804297" at="34,38,35,18" concept="5" />
+      <node id="494549096728804297" at="37,0,38,0" concept="6" trace="validatePropertyBreakingPoint" />
+      <node id="494549096728804297" at="39,109,40,99" concept="4" />
+      <node id="494549096728804297" at="41,53,42,75" concept="1" />
+      <node id="494549096728804297" at="43,7,44,20" concept="5" />
+      <node id="494549096729102973" at="48,41,49,130" concept="5" />
+      <node id="494549096728804296" at="55,84,56,119" concept="4" />
+      <node id="494549096728804297" at="56,119,57,61" concept="1" />
+      <node id="494549096728804296" at="57,61,58,22" concept="5" />
+      <node id="494549096728804296" at="62,0,63,0" concept="6" trace="ElementClass$X_" />
+      <node id="494549096728804296" at="66,0,67,0" concept="6" trace="name$tAp1" />
+      <node id="494549096728804296" at="25,0,28,0" concept="0" trace="ElementClass_Constraints#()V" />
+      <node id="494549096728804297" at="30,0,33,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="494549096728804297" at="40,99,43,7" concept="2" />
+      <node id="494549096729102971" at="48,0,51,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="494549096728804297" at="33,0,37,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="494549096728804691" at="46,97,51,9" concept="5" />
+      <node id="494549096728804296" at="54,0,60,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="494549096728804297" at="46,0,53,0" concept="7" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="494549096728804297" at="38,0,46,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="494549096728804296" at="25,37,26,36" />
+      <scope id="494549096728804297" at="30,59,31,40" />
+      <scope id="494549096728804297" at="34,38,35,18" />
+      <scope id="494549096728804297" at="41,53,42,75" />
+      <scope id="494549096729102972" at="48,41,49,130" />
+      <scope id="494549096728804296" at="25,0,28,0" />
+      <scope id="494549096728804297" at="30,0,33,0">
+        <var name="container" id="494549096728804297" />
+      </scope>
+      <scope id="494549096729102971" at="48,0,51,0">
+        <var name="it" id="494549096729102971" />
+      </scope>
+      <scope id="494549096728804296" at="55,84,58,22">
+        <var name="properties" id="494549096728804296" />
+      </scope>
+      <scope id="494549096728804297" at="33,0,37,0" />
+      <scope id="494549096728804297" at="39,109,44,20">
+        <var name="result" id="494549096728804297" />
+      </scope>
+      <scope id="494549096728804394" at="46,97,51,9" />
+      <scope id="494549096728804296" at="54,0,60,0" />
+      <scope id="494549096728804297" at="46,0,53,0">
+        <var name="node" id="494549096728804297" />
+        <var name="propertyValue" id="494549096728804297" />
+      </scope>
+      <scope id="494549096728804297" at="38,0,46,0">
+        <var name="checkingNodeContext" id="494549096728804297" />
+        <var name="node" id="494549096728804297" />
+        <var name="propertyValue" id="494549096728804297" />
+      </scope>
+      <unit id="494549096728804296" at="61,0,64,0" name="M2_AbstractLanguage.constraints.ElementClass_Constraints$CONCEPTS" />
+      <unit id="494549096728804296" at="65,0,68,0" name="M2_AbstractLanguage.constraints.ElementClass_Constraints$PROPS" />
+      <unit id="494549096729102971" at="47,125,51,7" name="M2_AbstractLanguage.constraints.ElementClass_Constraints$Name_Property$1" />
+      <unit id="494549096728804297" at="29,0,54,0" name="M2_AbstractLanguage.constraints.ElementClass_Constraints$Name_Property" />
+      <unit id="494549096728804296" at="24,0,69,0" name="M2_AbstractLanguage.constraints.ElementClass_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

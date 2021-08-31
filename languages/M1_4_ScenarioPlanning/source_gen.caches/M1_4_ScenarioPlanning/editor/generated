@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="123l2rgxet3d4xrjyfyjuwutog0f36q">
+  <files names="BusinessDriver_Editor.java:BusinessDriver_EditorBuilder_a.java:Casual_Editor.java:Casual_EditorBuilder_a.java:CheckPoint_Editor.java:CheckPoint_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Influence_Editor.java:Influence_EditorBuilder_a.java:KPI_Editor.java:KPI_EditorBuilder_a.java:KpiModel_Editor.java:KpiModel_EditorBuilder_a.java:LinkEditor_Editor.java:LinkEditor_EditorBuilder_a.java:Product_Editor.java:Product_EditorBuilder_a.java:RoadmapEditor_Editor.java:RoadmapEditor_EditorBuilder_a.java:ScenarioShift_Editor.java:ScenarioShift_EditorBuilder_a.java:Service_Editor.java:Service_EditorBuilder_a.java:SimulationEditor_Editor.java:SimulationEditor_EditorBuilder_a.java:Technology_Editor.java:Technology_EditorBuilder_a.java" />
+</product>
+
