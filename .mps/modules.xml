@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/M1_2_DesignRoadmapping/M1_2_DesignRoadmapping.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/M1_3_Nasa/M1_3_Nasa.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/M1_4_ScenarioPlanning/M1_4_ScenarioPlanning.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/M2_MetaLanguage/M2_MetaLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/M1_2_DesignRoadmap.sandbox/M1_2_DesignRoadmap.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/M1_3_Nasa.sandbox/M1_3_Nasa.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/M1_4_ScenarioPlanning.sandbox/M1_4_ScenarioPlanning.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
