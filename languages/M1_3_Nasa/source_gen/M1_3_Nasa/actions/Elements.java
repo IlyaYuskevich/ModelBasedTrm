@@ -17,41 +17,41 @@ import org.jetbrains.mps.openapi.language.SReferenceLink;
 public class Elements {
   public static class NodeFactory_5134746991218974927 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SPropertyOperations.assign(newNode, PROPS.name$tAp1, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.technology$y$l2), PROPS.classifier$hno8) + " State of the Art");
-      SLinkOperations.setTarget(newNode, LINKS.refClass$qDn_, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.technology$y$l2));
+      SPropertyOperations.assign(newNode, PROPS.name$MnvL, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.technology$OZtF), PROPS.classifier$vHX_) + " State of the Art");
+      SLinkOperations.setTarget(newNode, LINKS.refClass$a8kv, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.technology$OZtF));
     }
   }
   public static class NodeFactory_5134746991219184531 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SPropertyOperations.assign(newNode, PROPS.name$tAp1, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.technology$y$l2), PROPS.classifier$hno8) + " Performance Goal");
-      SLinkOperations.setTarget(newNode, LINKS.refClass$qDn_, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.technology$y$l2));
+      SPropertyOperations.assign(newNode, PROPS.name$MnvL, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.technology$OZtF), PROPS.classifier$vHX_) + " Performance Goal");
+      SLinkOperations.setTarget(newNode, LINKS.refClass$a8kv, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.technology$OZtF));
     }
   }
   public static class NodeFactory_5134746991219185630 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SPropertyOperations.assign(newNode, PROPS.name$tAp1, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.capability$PCvI), PROPS.name$tAp1) + " State of the Art");
-      SLinkOperations.setTarget(newNode, LINKS.refClass$qDn_, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.capability$PCvI));
+      SPropertyOperations.assign(newNode, PROPS.name$MnvL, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.capability$40CZ), PROPS.name$MnvL) + " State of the Art");
+      SLinkOperations.setTarget(newNode, LINKS.refClass$a8kv, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.capability$40CZ));
     }
   }
   public static class NodeFactory_5134746991219185818 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
-      SPropertyOperations.assign(newNode, PROPS.name$tAp1, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.capability$PCvI), PROPS.name$tAp1) + " Performance Goal");
-      SLinkOperations.setTarget(newNode, LINKS.refClass$qDn_, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$Z3), LINKS.capability$PCvI));
+      SPropertyOperations.assign(newNode, PROPS.name$MnvL, SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.capability$40CZ), PROPS.name$MnvL) + " Performance Goal");
+      SLinkOperations.setTarget(newNode, LINKS.refClass$a8kv, SLinkOperations.getTarget(SNodeOperations.as(enclosingNode, CONCEPTS.TechnologyEditor$gK), LINKS.capability$40CZ));
     }
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
-    /*package*/ static final SProperty classifier$hno8 = MetaAdapterFactory.getProperty(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7c29L, 0x12ac175056faf44L, "classifier");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty classifier$vHX_ = MetaAdapterFactory.getProperty(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7c29L, 0x12ac175056faf44L, "classifier");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept TechnologyEditor$Z3 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, "M1_3_Nasa.structure.TechnologyEditor");
+    /*package*/ static final SConcept TechnologyEditor$gK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, "M1_3_Nasa.structure.TechnologyEditor");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink technology$y$l2 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, 0x4742492ef6ef05c6L, "technology");
-    /*package*/ static final SReferenceLink refClass$qDn_ = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd39fdab8L, 0x7157f84cd39fdabfL, "refClass");
-    /*package*/ static final SContainmentLink capability$PCvI = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, 0x4742492ef7200907L, "capability");
+    /*package*/ static final SContainmentLink technology$OZtF = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, 0x4742492ef6ef05c6L, "technology");
+    /*package*/ static final SReferenceLink refClass$a8kv = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd39fdab8L, 0x7157f84cd39fdabfL, "refClass");
+    /*package*/ static final SContainmentLink capability$40CZ = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6ede25dL, 0x4742492ef7200907L, "capability");
   }
 }

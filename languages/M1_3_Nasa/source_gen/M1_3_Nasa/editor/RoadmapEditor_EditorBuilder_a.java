@@ -90,10 +90,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.mission$Eud9;
+      return LINKS.mission$E1D4;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Mission$aY;
+      return CONCEPTS.Mission$sF;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -103,7 +103,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(missionListHandler_yuriep_a0.this.getNode(), LINKS.mission$Eud9));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(missionListHandler_yuriep_a0.this.getNode(), LINKS.mission$E1D4));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_0();
@@ -191,10 +191,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.launchDate$NSyi;
+      return LINKS.launchDate$dLSr;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Launch$Hy;
+      return CONCEPTS.Launch$Zf;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -204,7 +204,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(launchDateListHandler_yuriep_c0.this.getNode(), LINKS.launchDate$NSyi));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(launchDateListHandler_yuriep_c0.this.getNode(), LINKS.launchDate$dLSr));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_3();
@@ -292,10 +292,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.need$U1dM;
+      return LINKS.need$bYWV;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Need$H3;
+      return CONCEPTS.Need$YK;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -305,7 +305,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(needListHandler_yuriep_e0.this.getNode(), LINKS.need$U1dM));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(needListHandler_yuriep_e0.this.getNode(), LINKS.need$bYWV));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_6();
@@ -393,10 +393,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.enables$U1tL;
+      return LINKS.enables$c6Gs;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Enables$b3;
+      return CONCEPTS.Enables$sK;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -406,7 +406,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(enablesListHandler_yuriep_g0.this.getNode(), LINKS.enables$U1tL));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(enablesListHandler_yuriep_g0.this.getNode(), LINKS.enables$c6Gs));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_9();
@@ -494,10 +494,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.enhances$rpLO;
+      return LINKS.enhances$mSpT;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Enhances$PK;
+      return CONCEPTS.Enhances$7t;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -507,7 +507,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(enhancesListHandler_yuriep_i0.this.getNode(), LINKS.enhances$rpLO));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(enhancesListHandler_yuriep_i0.this.getNode(), LINKS.enhances$mSpT));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_12();
@@ -593,10 +593,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.requires$Eue7;
+      return LINKS.requires$E276;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Requires$by;
+      return CONCEPTS.Requires$tf;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -606,7 +606,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(requiresListHandler_yuriep_k0.this.getNode(), LINKS.requires$Eue7));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(requiresListHandler_yuriep_k0.this.getNode(), LINKS.requires$E276));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_15();
@@ -654,20 +654,20 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink mission$Eud9 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef7365866L, "mission");
-    /*package*/ static final SContainmentLink launchDate$NSyi = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x5ff61aa790089f22L, "launchDate");
-    /*package*/ static final SContainmentLink need$U1dM = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef739f119L, "need");
-    /*package*/ static final SContainmentLink enables$U1tL = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef739f125L, "enables");
-    /*package*/ static final SContainmentLink enhances$rpLO = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x5ff61aa79018eff2L, "enhances");
-    /*package*/ static final SContainmentLink requires$Eue7 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef7365868L, "requires");
+    /*package*/ static final SContainmentLink mission$E1D4 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef7365866L, "mission");
+    /*package*/ static final SContainmentLink launchDate$dLSr = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x5ff61aa790089f22L, "launchDate");
+    /*package*/ static final SContainmentLink need$bYWV = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef739f119L, "need");
+    /*package*/ static final SContainmentLink enables$c6Gs = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef739f125L, "enables");
+    /*package*/ static final SContainmentLink enhances$mSpT = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x5ff61aa79018eff2L, "enhances");
+    /*package*/ static final SContainmentLink requires$E276 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef7365863L, 0x4742492ef7365868L, "requires");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Mission$aY = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e31487L, "M1_3_Nasa.structure.Mission");
-    /*package*/ static final SConcept Launch$Hy = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e033L, "M1_3_Nasa.structure.Launch");
-    /*package*/ static final SConcept Need$H3 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
-    /*package*/ static final SConcept Enables$b3 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456cL, "M1_3_Nasa.structure.Enables");
-    /*package*/ static final SConcept Enhances$PK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x5ff61aa79018eff1L, "M1_3_Nasa.structure.Enhances");
-    /*package*/ static final SConcept Requires$by = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456dL, "M1_3_Nasa.structure.Requires");
+    /*package*/ static final SConcept Mission$sF = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e31487L, "M1_3_Nasa.structure.Mission");
+    /*package*/ static final SConcept Launch$Zf = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e033L, "M1_3_Nasa.structure.Launch");
+    /*package*/ static final SConcept Need$YK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
+    /*package*/ static final SConcept Enables$sK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456cL, "M1_3_Nasa.structure.Enables");
+    /*package*/ static final SConcept Enhances$7t = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x5ff61aa79018eff1L, "M1_3_Nasa.structure.Enhances");
+    /*package*/ static final SConcept Requires$tf = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456dL, "M1_3_Nasa.structure.Requires");
   }
 }

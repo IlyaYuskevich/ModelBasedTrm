@@ -295,12 +295,12 @@
       <node id="6904325845244891580" at="665,72,666,27" concept="9" />
       <node id="6904325845248457730" at="668,44,669,91" concept="6" />
       <node id="6904325845244891580" at="671,40,672,75" concept="6" />
-      <node id="6904325845244891580" at="677,0,678,0" concept="8" trace="elements$eAmo" />
-      <node id="6904325845244891580" at="681,0,682,0" concept="8" trace="Element$Sb" />
-      <node id="6904325845244891580" at="682,0,683,0" concept="8" trace="BusinessDriver$yG" />
-      <node id="6904325845244891580" at="683,0,684,0" concept="8" trace="Product$zE" />
-      <node id="6904325845244891580" at="684,0,685,0" concept="8" trace="Service$_7" />
-      <node id="6904325845244891580" at="685,0,686,0" concept="8" trace="Technology$zb" />
+      <node id="6904325845244891580" at="677,0,678,0" concept="8" trace="elements$COGC" />
+      <node id="6904325845244891580" at="681,0,682,0" concept="8" trace="Element$LJ" />
+      <node id="6904325845244891580" at="682,0,683,0" concept="8" trace="BusinessDriver$pG" />
+      <node id="6904325845244891580" at="683,0,684,0" concept="8" trace="Product$qE" />
+      <node id="6904325845244891580" at="684,0,685,0" concept="8" trace="Service$s7" />
+      <node id="6904325845244891580" at="685,0,686,0" concept="8" trace="Technology$qb" />
       <node id="6904325845244891580" at="44,0,46,0" concept="2" trace="myNode" />
       <node id="6904325845244891580" at="141,0,143,0" concept="2" trace="myNode" />
       <node id="6904325845244891580" at="292,0,294,0" concept="2" trace="myNode" />
@@ -1289,12 +1289,12 @@
       <node id="84092251404553768" at="548,94,549,47" concept="1" />
       <node id="84092251404553768" at="549,47,550,34" concept="1" />
       <node id="84092251404553768" at="550,34,551,22" concept="6" />
-      <node id="6904325845244913294" at="555,0,556,0" concept="8" trace="source$44iv" />
-      <node id="6904325845244913294" at="556,0,557,0" concept="8" trace="target$44w3" />
-      <node id="6904325845244913294" at="557,0,558,0" concept="8" trace="scenario$S6qo" />
-      <node id="6904325845244913294" at="561,0,562,0" concept="8" trace="LinkAttribute$7j" />
-      <node id="6904325845244913294" at="562,0,563,0" concept="8" trace="PropertyAttribute$jT" />
-      <node id="6904325845244913294" at="566,0,567,0" concept="8" trace="name$tAp1" />
+      <node id="6904325845244913294" at="555,0,556,0" concept="8" trace="source$eaQ_" />
+      <node id="6904325845244913294" at="556,0,557,0" concept="8" trace="target$ehr1" />
+      <node id="6904325845244913294" at="557,0,558,0" concept="8" trace="scenario$rcFc" />
+      <node id="6904325845244913294" at="561,0,562,0" concept="8" trace="LinkAttribute$v_" />
+      <node id="6904325845244913294" at="562,0,563,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="6904325845244913294" at="566,0,567,0" concept="8" trace="name$MnvL" />
       <node id="6904325845244913294" at="38,0,40,0" concept="2" trace="myNode" />
       <node id="84092251404469513" at="108,0,110,0" concept="2" trace="myNode" />
       <node id="84092251404469496" at="195,0,197,0" concept="2" trace="myNode" />
@@ -1884,8 +1884,8 @@
       <node id="84092251404363952" at="115,34,116,69" concept="1" />
       <node id="84092251404363952" at="116,69,117,146" concept="1" />
       <node id="84092251404363952" at="121,34,122,91" concept="1" />
-      <node id="84092251404363952" at="129,0,130,0" concept="8" trace="links$uCxZ" />
-      <node id="84092251404363952" at="133,0,134,0" concept="8" trace="Link$Y4" />
+      <node id="84092251404363952" at="129,0,130,0" concept="8" trace="links$pSkx" />
+      <node id="84092251404363952" at="133,0,134,0" concept="8" trace="Link$RC" />
       <node id="84092251404363952" at="27,0,29,0" concept="2" trace="myNode" />
       <node id="84092251404363952" at="61,0,63,0" concept="2" trace="myNode" />
       <node id="84092251404363952" at="41,0,44,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2226,12 +2226,12 @@
       <node id="84092251404996810" at="555,94,556,47" concept="1" />
       <node id="84092251404996810" at="556,47,557,34" concept="1" />
       <node id="84092251404996810" at="557,34,558,22" concept="6" />
-      <node id="84092251404996787" at="562,0,563,0" concept="8" trace="source$44iv" />
-      <node id="84092251404996787" at="563,0,564,0" concept="8" trace="scenario$S6qo" />
-      <node id="84092251404996787" at="564,0,565,0" concept="8" trace="target$44w3" />
-      <node id="84092251404996787" at="568,0,569,0" concept="8" trace="LinkAttribute$7j" />
-      <node id="84092251404996787" at="569,0,570,0" concept="8" trace="PropertyAttribute$jT" />
-      <node id="84092251404996787" at="573,0,574,0" concept="8" trace="name$tAp1" />
+      <node id="84092251404996787" at="562,0,563,0" concept="8" trace="source$eaQ_" />
+      <node id="84092251404996787" at="563,0,564,0" concept="8" trace="scenario$rcFc" />
+      <node id="84092251404996787" at="564,0,565,0" concept="8" trace="target$ehr1" />
+      <node id="84092251404996787" at="568,0,569,0" concept="8" trace="LinkAttribute$v_" />
+      <node id="84092251404996787" at="569,0,570,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="84092251404996787" at="573,0,574,0" concept="8" trace="name$MnvL" />
       <node id="84092251404996787" at="38,0,40,0" concept="2" trace="myNode" />
       <node id="84092251404996791" at="109,0,111,0" concept="2" trace="myNode" />
       <node id="84092251404996795" at="198,0,200,0" concept="2" trace="myNode" />
@@ -2751,9 +2751,9 @@
       <node id="84092251407751418" at="148,35,149,26" concept="6" />
       <node id="84092251407751418" at="150,17,151,42" concept="1" />
       <node id="84092251407751418" at="154,40,155,29" concept="6" />
-      <node id="84092251407751418" at="160,0,161,0" concept="8" trace="name$tAp1" />
-      <node id="84092251407751418" at="164,0,165,0" concept="8" trace="PropertyAttribute$jT" />
-      <node id="84092251407751418" at="168,0,169,0" concept="8" trace="kpiModel$EIm9" />
+      <node id="84092251407751418" at="160,0,161,0" concept="8" trace="name$MnvL" />
+      <node id="84092251407751418" at="164,0,165,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="84092251407751418" at="168,0,169,0" concept="8" trace="kpiModel$gG_n" />
       <node id="84092251407751418" at="39,0,41,0" concept="2" trace="myNode" />
       <node id="84092251407751418" at="108,0,110,0" concept="2" trace="myNode" />
       <node id="84092251407751418" at="53,0,56,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -2897,8 +2897,8 @@
       <node id="84092251407751467" at="81,89,82,145" concept="6" />
       <node id="84092251407751467" at="83,12,84,24" concept="6" />
       <node id="84092251407751467" at="85,15,86,40" concept="1" />
-      <node id="84092251407751465" at="91,0,92,0" concept="8" trace="model$S5iK" />
-      <node id="84092251407751465" at="95,0,96,0" concept="8" trace="PropertyAttribute$jT" />
+      <node id="84092251407751465" at="91,0,92,0" concept="8" trace="model$INWg" />
+      <node id="84092251407751465" at="95,0,96,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="84092251407751465" at="31,0,33,0" concept="2" trace="myNode" />
       <node id="84092251407751465" at="45,0,48,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="84092251407751467" at="76,0,79,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -3033,10 +3033,10 @@
       <node id="84092251407751502" at="195,34,196,69" concept="1" />
       <node id="84092251407751502" at="196,69,197,146" concept="1" />
       <node id="84092251407751502" at="201,34,202,91" concept="1" />
-      <node id="84092251407751502" at="209,0,210,0" concept="8" trace="kpi$mGbu" />
-      <node id="84092251407751502" at="210,0,211,0" concept="8" trace="influence$mGaw" />
-      <node id="84092251407751502" at="214,0,215,0" concept="8" trace="KPI$gW" />
-      <node id="84092251407751502" at="215,0,216,0" concept="8" trace="Influence$KJ" />
+      <node id="84092251407751502" at="209,0,210,0" concept="8" trace="kpi$zDqy" />
+      <node id="84092251407751502" at="210,0,211,0" concept="8" trace="influence$zCWw" />
+      <node id="84092251407751502" at="214,0,215,0" concept="8" trace="KPI$7W" />
+      <node id="84092251407751502" at="215,0,216,0" concept="8" trace="Influence$BJ" />
       <node id="84092251407751502" at="29,0,31,0" concept="2" trace="myNode" />
       <node id="84092251407751502" at="64,0,66,0" concept="2" trace="myNode" />
       <node id="84092251407751502" at="141,0,143,0" concept="2" trace="myNode" />

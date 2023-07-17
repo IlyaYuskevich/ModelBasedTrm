@@ -23,12 +23,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class ElementClass_Constraints extends BaseConstraintsDescriptor {
   public ElementClass_Constraints() {
-    super(CONCEPTS.ElementClass$X_);
+    super(CONCEPTS.ElementClass$R9);
   }
 
   public static class Name_Property extends BasePropertyConstraintsDescriptor {
     public Name_Property(ConstraintsDescriptor container) {
-      super(PROPS.name$tAp1, container);
+      super(PROPS.name$MnvL, container);
     }
     @Override
     public boolean hasOwnValidator() {
@@ -44,9 +44,9 @@ public class ElementClass_Constraints extends BaseConstraintsDescriptor {
       return result;
     }
     private static boolean staticValidateProperty(final SNode node, final String propertyValue) {
-      return ListSequence.fromList(SModelOperations.nodes(SNodeOperations.getModel(node), CONCEPTS.ElementClass$X_)).all(new IWhereFilter<SNode>() {
+      return ListSequence.fromList(SModelOperations.nodes(SNodeOperations.getModel(node), CONCEPTS.ElementClass$R9)).all(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return !(Objects.equals(SPropertyOperations.getString(it, PROPS.name$tAp1), propertyValue)) || Objects.equals(it, node);
+          return !(Objects.equals(SPropertyOperations.getString(it, PROPS.name$MnvL), propertyValue)) || Objects.equals(it, node);
         }
       });
     }
@@ -54,15 +54,15 @@ public class ElementClass_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<SProperty, PropertyConstraintsDescriptor> getSpecifiedProperties() {
     Map<SProperty, PropertyConstraintsDescriptor> properties = new HashMap<SProperty, PropertyConstraintsDescriptor>();
-    properties.put(PROPS.name$tAp1, new Name_Property(this));
+    properties.put(PROPS.name$MnvL, new Name_Property(this));
     return properties;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ElementClass$X_ = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8ceL, "M2_AbstractLanguage.structure.ElementClass");
+    /*package*/ static final SConcept ElementClass$R9 = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8ceL, "M2_AbstractLanguage.structure.ElementClass");
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
   }
 }

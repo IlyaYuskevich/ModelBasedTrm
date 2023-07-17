@@ -97,10 +97,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.levels$y538;
+      return LINKS.levels$Kyqs;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Level$U7;
+      return CONCEPTS.Level$NF;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -110,7 +110,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(levelsListHandler_t6y5ke_c0.this.getNode(), LINKS.levels$y538));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(levelsListHandler_t6y5ke_c0.this.getNode(), LINKS.levels$Kyqs));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -185,10 +185,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.scenarios$y4OA;
+      return LINKS.scenarios$KrnY;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Scenario$UA;
+      return CONCEPTS.Scenario$Oa;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -198,7 +198,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(scenariosListHandler_t6y5ke_e0.this.getNode(), LINKS.scenarios$y4OA));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(scenariosListHandler_t6y5ke_e0.this.getNode(), LINKS.scenarios$KrnY));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -240,12 +240,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink levels$y538 = MetaAdapterFactory.getContainmentLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a935L, 0x7157f84cd378a965L, "levels");
-    /*package*/ static final SContainmentLink scenarios$y4OA = MetaAdapterFactory.getContainmentLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a935L, 0x7157f84cd378a95cL, "scenarios");
+    /*package*/ static final SContainmentLink levels$Kyqs = MetaAdapterFactory.getContainmentLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a935L, 0x7157f84cd378a965L, "levels");
+    /*package*/ static final SContainmentLink scenarios$KrnY = MetaAdapterFactory.getContainmentLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a935L, 0x7157f84cd378a95cL, "scenarios");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Level$U7 = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a93bL, "M2_AbstractLanguage.structure.Level");
-    /*package*/ static final SConcept Scenario$UA = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a93cL, "M2_AbstractLanguage.structure.Scenario");
+    /*package*/ static final SConcept Level$NF = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a93bL, "M2_AbstractLanguage.structure.Level");
+    /*package*/ static final SConcept Scenario$Oa = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a93cL, "M2_AbstractLanguage.structure.Scenario");
   }
 }

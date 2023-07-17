@@ -77,10 +77,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.areas$mEX0;
+      return LINKS.areas$4cOH;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.TechnologyArea$Zs;
+      return CONCEPTS.TechnologyArea$h9;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -90,7 +90,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(areasListHandler_eotgbz_a0.this.getNode(), LINKS.areas$mEX0));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(areasListHandler_eotgbz_a0.this.getNode(), LINKS.areas$4cOH));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -132,10 +132,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink areas$mEX0 = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7b16L, 0x12ac175056f7b17L, "areas");
+    /*package*/ static final SContainmentLink areas$4cOH = MetaAdapterFactory.getContainmentLink(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7b16L, 0x12ac175056f7b17L, "areas");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept TechnologyArea$Zs = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7ad3L, "M1_3_Nasa.structure.TechnologyArea");
+    /*package*/ static final SConcept TechnologyArea$h9 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7ad3L, "M1_3_Nasa.structure.TechnologyArea");
   }
 }

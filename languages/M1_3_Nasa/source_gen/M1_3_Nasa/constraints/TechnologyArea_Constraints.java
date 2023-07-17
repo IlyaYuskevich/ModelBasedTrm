@@ -18,7 +18,7 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class TechnologyArea_Constraints extends BaseConstraintsDescriptor {
   public TechnologyArea_Constraints() {
-    super(CONCEPTS.TechnologyArea$Zs);
+    super(CONCEPTS.TechnologyArea$h9);
   }
 
   @Override
@@ -42,6 +42,6 @@ public class TechnologyArea_Constraints extends BaseConstraintsDescriptor {
   private static final SNodePointer canBeParentBreakingPoint = new SNodePointer("r:34a25c43-ae3b-4daf-83da-115a6acc6c35(M1_3_Nasa.constraints)", "84092251411410929");
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept TechnologyArea$Zs = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7ad3L, "M1_3_Nasa.structure.TechnologyArea");
+    /*package*/ static final SConcept TechnologyArea$h9 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12ac175056f7ad3L, "M1_3_Nasa.structure.TechnologyArea");
   }
 }

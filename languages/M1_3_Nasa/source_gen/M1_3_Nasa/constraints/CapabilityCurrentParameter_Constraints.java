@@ -8,10 +8,10 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class CapabilityCurrentParameter_Constraints extends BaseConstraintsDescriptor {
   public CapabilityCurrentParameter_Constraints() {
-    super(CONCEPTS.CapabilityCurrentParameter$vB);
+    super(CONCEPTS.CapabilityCurrentParameter$Lk);
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept CapabilityCurrentParameter$vB = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12786cdabf374400L, "M1_3_Nasa.structure.CapabilityCurrentParameter");
+    /*package*/ static final SConcept CapabilityCurrentParameter$Lk = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x12786cdabf374400L, "M1_3_Nasa.structure.CapabilityCurrentParameter");
   }
 }

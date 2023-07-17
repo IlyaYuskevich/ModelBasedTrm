@@ -74,10 +74,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.kpi$mGbu;
+      return LINKS.kpi$zDqy;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.KPI$gW;
+      return CONCEPTS.KPI$7W;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -87,7 +87,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(kpiListHandler_hreyfw_a0.this.getNode(), LINKS.kpi$mGbu));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(kpiListHandler_hreyfw_a0.this.getNode(), LINKS.kpi$zDqy));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -151,10 +151,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.influence$mGaw;
+      return LINKS.influence$zCWw;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Influence$KJ;
+      return CONCEPTS.Influence$BJ;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -164,7 +164,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(influenceListHandler_hreyfw_b0.this.getNode(), LINKS.influence$mGaw));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(influenceListHandler_hreyfw_b0.this.getNode(), LINKS.influence$zCWw));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -206,12 +206,12 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink kpi$mGbu = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac1750585993bL, 0x12ac1750585993eL, "kpi");
-    /*package*/ static final SContainmentLink influence$mGaw = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac1750585993bL, 0x12ac1750585993cL, "influence");
+    /*package*/ static final SContainmentLink kpi$zDqy = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac1750585993bL, 0x12ac1750585993eL, "kpi");
+    /*package*/ static final SContainmentLink influence$zCWw = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac1750585993bL, 0x12ac1750585993cL, "influence");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept KPI$gW = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac17505633a26L, "M1_4_ScenarioPlanning.structure.KPI");
-    /*package*/ static final SConcept Influence$KJ = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335ca5L, "M1_4_ScenarioPlanning.structure.Influence");
+    /*package*/ static final SConcept KPI$7W = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x12ac17505633a26L, "M1_4_ScenarioPlanning.structure.KPI");
+    /*package*/ static final SConcept Influence$BJ = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335ca5L, "M1_4_ScenarioPlanning.structure.Influence");
   }
 }

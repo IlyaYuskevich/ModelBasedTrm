@@ -28,7 +28,7 @@ public class AttributeValue_SubstituteMenu extends SubstituteMenuBase {
   @Override
   protected List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> getParts(final SubstituteMenuContext _context) {
     List<MenuPart<SubstituteMenuItem, SubstituteMenuContext>> result = new ArrayList<MenuPart<SubstituteMenuItem, SubstituteMenuContext>>();
-    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new SMP_ReferenceScope_ewcapd_a(), CONCEPTS.AttributeValue$6a));
+    result.add(new ConstraintsFilteringSubstituteMenuPartDecorator(new SMP_ReferenceScope_ewcapd_a(), CONCEPTS.AttributeValue$ZI));
     result.add(new SMP_Subconcepts_ewcapd_b());
     return result;
   }
@@ -50,7 +50,7 @@ public class AttributeValue_SubstituteMenu extends SubstituteMenuBase {
 
     public SMP_ReferenceScope_ewcapd_a() {
       // that cast is needed for prevent the users from https://youtrack.jetbrains.com/issue/MPS-29051 
-      super((SAbstractConcept) CONCEPTS.AttributeValue$6a, LINKS.element$HZNq);
+      super((SAbstractConcept) CONCEPTS.AttributeValue$ZI, LINKS.element$xZNa);
     }
     @NotNull
     @Override
@@ -67,7 +67,7 @@ public class AttributeValue_SubstituteMenu extends SubstituteMenuBase {
   }
   public class SMP_Subconcepts_ewcapd_b extends ConceptMenusPart<SubstituteMenuItem, SubstituteMenuContext> {
     protected Collection getConcepts(final SubstituteMenuContext _context) {
-      return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.AttributeValue$6a);
+      return ConceptDescendantsCache.getInstance().getDirectDescendants(CONCEPTS.AttributeValue$ZI);
     }
     @NotNull
     @Override
@@ -88,10 +88,10 @@ public class AttributeValue_SubstituteMenu extends SubstituteMenuBase {
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept AttributeValue$6a = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a96fL, "M2_AbstractLanguage.structure.AttributeValue");
+    /*package*/ static final SConcept AttributeValue$ZI = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a96fL, "M2_AbstractLanguage.structure.AttributeValue");
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink element$HZNq = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a96fL, 0x6dcfdc8824a9d07L, "element");
+    /*package*/ static final SReferenceLink element$xZNa = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd378a96fL, 0x6dcfdc8824a9d07L, "element");
   }
 }

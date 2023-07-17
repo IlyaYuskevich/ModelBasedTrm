@@ -98,7 +98,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
           @Override
           public void run() {
             SNode driver = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9dL, "M1_4_ScenarioPlanning.structure.BusinessDriver"));
-            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).insertElement(0, driver);
+            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).insertElement(0, driver);
             SelectionUtil.selectNode(getEditorContext(), driver);
           }
         });
@@ -119,7 +119,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         getEditorContext().getRepository().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
-            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).first());
+            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).first());
           }
         });
       }
@@ -151,10 +151,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.elements$eAmo;
+      return LINKS.elements$COGC;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Element$Sb;
+      return CONCEPTS.Element$LJ;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -166,7 +166,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_b0.this.getNode(), LINKS.elements$eAmo));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_b0.this.getNode(), LINKS.elements$COGC));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -206,7 +206,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
     public boolean filter(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.BusinessDriver$yG);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.BusinessDriver$pG);
     }
   }
   public static class RangeSelectionFilter_yuriep_b0 extends NodeRangeSelection.RangeSelectionFilter {
@@ -216,7 +216,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       super(editorContext);
     }
     public boolean accept(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.BusinessDriver$yG);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.BusinessDriver$pG);
     }
     public String getModuleReference() {
       return "aee53256-d531-4aef-a69a-a7f9142b644d(M1_4_ScenarioPlanning)";
@@ -249,7 +249,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
           @Override
           public void run() {
             SNode product = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9fL, "M1_4_ScenarioPlanning.structure.Product"));
-            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).insertElement(0, product);
+            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).insertElement(0, product);
             SelectionUtil.selectNode(getEditorContext(), product);
           }
         });
@@ -270,7 +270,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         getEditorContext().getRepository().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
-            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).first());
+            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).first());
           }
         });
       }
@@ -302,10 +302,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.elements$eAmo;
+      return LINKS.elements$COGC;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Element$Sb;
+      return CONCEPTS.Element$LJ;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -317,7 +317,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_d0.this.getNode(), LINKS.elements$eAmo));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_d0.this.getNode(), LINKS.elements$COGC));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -357,7 +357,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
     public boolean filter(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Product$zE);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Product$qE);
     }
   }
   public static class RangeSelectionFilter_yuriep_d0 extends NodeRangeSelection.RangeSelectionFilter {
@@ -367,7 +367,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       super(editorContext);
     }
     public boolean accept(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Product$zE);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Product$qE);
     }
     public String getModuleReference() {
       return "aee53256-d531-4aef-a69a-a7f9142b644d(M1_4_ScenarioPlanning)";
@@ -400,7 +400,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
           @Override
           public void run() {
             SNode service = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335ca2L, "M1_4_ScenarioPlanning.structure.Service"));
-            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).insertElement(0, service);
+            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).insertElement(0, service);
             SelectionUtil.selectNode(getEditorContext(), service);
           }
         });
@@ -421,7 +421,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         getEditorContext().getRepository().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
-            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).first());
+            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).first());
           }
         });
       }
@@ -453,10 +453,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.elements$eAmo;
+      return LINKS.elements$COGC;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Element$Sb;
+      return CONCEPTS.Element$LJ;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -468,7 +468,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_f0.this.getNode(), LINKS.elements$eAmo));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_f0.this.getNode(), LINKS.elements$COGC));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -508,7 +508,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
     public boolean filter(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Service$_7);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Service$s7);
     }
   }
   public static class RangeSelectionFilter_yuriep_f0 extends NodeRangeSelection.RangeSelectionFilter {
@@ -518,7 +518,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       super(editorContext);
     }
     public boolean accept(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Service$_7);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Service$s7);
     }
     public String getModuleReference() {
       return "aee53256-d531-4aef-a69a-a7f9142b644d(M1_4_ScenarioPlanning)";
@@ -548,7 +548,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
           @Override
           public void run() {
             SNode technology = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9eL, "M1_4_ScenarioPlanning.structure.Technology"));
-            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).insertElement(0, technology);
+            ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).insertElement(0, technology);
             SelectionUtil.selectNode(getEditorContext(), technology);
           }
         });
@@ -569,7 +569,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
         getEditorContext().getRepository().getModelAccess().executeCommandInEDT(new Runnable() {
           @Override
           public void run() {
-            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$eAmo)).first());
+            SNodeOperations.deleteNode(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.elements$COGC)).first());
           }
         });
       }
@@ -601,10 +601,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.elements$eAmo;
+      return LINKS.elements$COGC;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Element$Sb;
+      return CONCEPTS.Element$LJ;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -616,7 +616,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_h0.this.getNode(), LINKS.elements$eAmo));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(elementsListHandler_yuriep_h0.this.getNode(), LINKS.elements$COGC));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -656,7 +656,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       }
     }
     public boolean filter(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Technology$zb);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Technology$qb);
     }
   }
   public static class RangeSelectionFilter_yuriep_h0 extends NodeRangeSelection.RangeSelectionFilter {
@@ -666,7 +666,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       super(editorContext);
     }
     public boolean accept(SNode childNode) {
-      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Technology$zb);
+      return Objects.equals(SNodeOperations.getConcept(childNode), CONCEPTS.Technology$qb);
     }
     public String getModuleReference() {
       return "aee53256-d531-4aef-a69a-a7f9142b644d(M1_4_ScenarioPlanning)";
@@ -674,14 +674,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink elements$eAmo = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5fd117c68b5e1854L, 0x5fd117c68b5ed1b0L, "elements");
+    /*package*/ static final SContainmentLink elements$COGC = MetaAdapterFactory.getContainmentLink(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5fd117c68b5e1854L, 0x5fd117c68b5ed1b0L, "elements");
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Element$Sb = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd39fdab8L, "M2_AbstractLanguage.structure.Element");
-    /*package*/ static final SConcept BusinessDriver$yG = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9dL, "M1_4_ScenarioPlanning.structure.BusinessDriver");
-    /*package*/ static final SConcept Product$zE = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9fL, "M1_4_ScenarioPlanning.structure.Product");
-    /*package*/ static final SConcept Service$_7 = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335ca2L, "M1_4_ScenarioPlanning.structure.Service");
-    /*package*/ static final SConcept Technology$zb = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9eL, "M1_4_ScenarioPlanning.structure.Technology");
+    /*package*/ static final SConcept Element$LJ = MetaAdapterFactory.getConcept(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd39fdab8L, "M2_AbstractLanguage.structure.Element");
+    /*package*/ static final SConcept BusinessDriver$pG = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9dL, "M1_4_ScenarioPlanning.structure.BusinessDriver");
+    /*package*/ static final SConcept Product$qE = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9fL, "M1_4_ScenarioPlanning.structure.Product");
+    /*package*/ static final SConcept Service$s7 = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335ca2L, "M1_4_ScenarioPlanning.structure.Service");
+    /*package*/ static final SConcept Technology$qb = MetaAdapterFactory.getConcept(0xaee53256d5314aefL, 0xa69aa7f9142b644dL, 0x5ff61aa790335c9eL, "M1_4_ScenarioPlanning.structure.Technology");
   }
 }

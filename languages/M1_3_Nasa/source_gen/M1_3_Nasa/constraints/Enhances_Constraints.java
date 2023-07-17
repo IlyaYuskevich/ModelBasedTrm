@@ -23,12 +23,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Enhances_Constraints extends BaseConstraintsDescriptor {
   public Enhances_Constraints() {
-    super(CONCEPTS.Enhances$PK);
+    super(CONCEPTS.Enhances$7t);
   }
 
   @Override
   protected Map<SReferenceLink, ReferenceConstraintsDescriptor> getSpecifiedReferences() {
-    BaseReferenceConstraintsDescriptor d0 = new BaseReferenceConstraintsDescriptor(LINKS.source$44iv, this) {
+    BaseReferenceConstraintsDescriptor d0 = new BaseReferenceConstraintsDescriptor(LINKS.source$eaQ_, this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -43,12 +43,12 @@ public class Enhances_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final ReferenceConstraintsContext _context) {
-            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getReferenceNode()), CONCEPTS.TechnologyTarget$il));
+            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getReferenceNode()), CONCEPTS.TechnologyTarget$$2));
           }
         };
       }
     };
-    BaseReferenceConstraintsDescriptor d1 = new BaseReferenceConstraintsDescriptor(LINKS.target$44w3, this) {
+    BaseReferenceConstraintsDescriptor d1 = new BaseReferenceConstraintsDescriptor(LINKS.target$ehr1, this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -63,7 +63,7 @@ public class Enhances_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final ReferenceConstraintsContext _context) {
-            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getReferenceNode()), CONCEPTS.Need$H3));
+            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getReferenceNode()), CONCEPTS.Need$YK));
           }
         };
       }
@@ -77,13 +77,13 @@ public class Enhances_Constraints extends BaseConstraintsDescriptor {
   private static final SNodePointer breakingNode_tk9j2_a0a0a0a0a1a0a0b0c = new SNodePointer("r:34a25c43-ae3b-4daf-83da-115a6acc6c35(M1_3_Nasa.constraints)", "6914743584853569042");
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Enhances$PK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x5ff61aa79018eff1L, "M1_3_Nasa.structure.Enhances");
-    /*package*/ static final SConcept TechnologyTarget$il = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e7488bL, "M1_3_Nasa.structure.TechnologyTarget");
-    /*package*/ static final SConcept Need$H3 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
+    /*package*/ static final SConcept Enhances$7t = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x5ff61aa79018eff1L, "M1_3_Nasa.structure.Enhances");
+    /*package*/ static final SConcept TechnologyTarget$$2 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e7488bL, "M1_3_Nasa.structure.TechnologyTarget");
+    /*package*/ static final SConcept Need$YK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink source$44iv = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa93L, "source");
-    /*package*/ static final SReferenceLink target$44w3 = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa9aL, "target");
+    /*package*/ static final SReferenceLink source$eaQ_ = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa93L, "source");
+    /*package*/ static final SReferenceLink target$ehr1 = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa9aL, "target");
   }
 }

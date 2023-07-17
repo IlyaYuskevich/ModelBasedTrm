@@ -14,12 +14,12 @@
       <node id="5134746991218817752" at="22,91,23,182" concept="0" />
       <node id="5134746991218911556" at="27,91,28,183" concept="0" />
       <node id="5134746991218912707" at="32,91,33,182" concept="0" />
-      <node id="5134746991218429942" at="38,0,39,0" concept="2" trace="element$HZNq" />
-      <node id="5134746991218429942" at="39,0,40,0" concept="2" trace="technologyCurrent$2GWu" />
-      <node id="5134746991218429942" at="40,0,41,0" concept="2" trace="technologyTarget$y$y7" />
-      <node id="5134746991218429942" at="41,0,42,0" concept="2" trace="capabilityCurrent$y$z$" />
-      <node id="5134746991218429942" at="42,0,43,0" concept="2" trace="capabilityTarget$y$_w" />
-      <node id="5134746991218429942" at="46,0,47,0" concept="2" trace="TechnologyEditor$Z3" />
+      <node id="5134746991218429942" at="38,0,39,0" concept="2" trace="element$xZNa" />
+      <node id="5134746991218429942" at="39,0,40,0" concept="2" trace="technologyCurrent$pa$f" />
+      <node id="5134746991218429942" at="40,0,41,0" concept="2" trace="technologyTarget$P5N6" />
+      <node id="5134746991218429942" at="41,0,42,0" concept="2" trace="capabilityCurrent$P6w9" />
+      <node id="5134746991218429942" at="42,0,43,0" concept="2" trace="capabilityTarget$P7sd" />
+      <node id="5134746991218429942" at="46,0,47,0" concept="2" trace="TechnologyEditor$gK" />
       <node id="5134746991218429943" at="17,0,20,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
       <node id="5134746991218817377" at="22,0,25,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
       <node id="5134746991218909348" at="27,0,30,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
@@ -71,12 +71,12 @@
       <node id="5134746991219267722" at="32,244,33,177" concept="0" />
       <node id="5134746991219185821" at="37,91,38,244" concept="0" />
       <node id="5134746991219268442" at="38,244,39,177" concept="0" />
-      <node id="5134746991218974926" at="44,0,45,0" concept="2" trace="name$tAp1" />
-      <node id="5134746991218974926" at="45,0,46,0" concept="2" trace="classifier$hno8" />
-      <node id="5134746991218974926" at="49,0,50,0" concept="2" trace="TechnologyEditor$Z3" />
-      <node id="5134746991218974926" at="53,0,54,0" concept="2" trace="technology$y$l2" />
-      <node id="5134746991218974926" at="54,0,55,0" concept="2" trace="refClass$qDn_" />
-      <node id="5134746991218974926" at="55,0,56,0" concept="2" trace="capability$PCvI" />
+      <node id="5134746991218974926" at="44,0,45,0" concept="2" trace="name$MnvL" />
+      <node id="5134746991218974926" at="45,0,46,0" concept="2" trace="classifier$vHX_" />
+      <node id="5134746991218974926" at="49,0,50,0" concept="2" trace="TechnologyEditor$gK" />
+      <node id="5134746991218974926" at="53,0,54,0" concept="2" trace="technology$OZtF" />
+      <node id="5134746991218974926" at="54,0,55,0" concept="2" trace="refClass$a8kv" />
+      <node id="5134746991218974926" at="55,0,56,0" concept="2" trace="capability$40CZ" />
       <node id="5134746991218974927" at="19,0,23,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
       <node id="5134746991219184531" at="25,0,29,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
       <node id="5134746991219185630" at="31,0,35,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />

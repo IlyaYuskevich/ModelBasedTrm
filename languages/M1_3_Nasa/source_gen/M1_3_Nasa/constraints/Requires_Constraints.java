@@ -23,12 +23,12 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Requires_Constraints extends BaseConstraintsDescriptor {
   public Requires_Constraints() {
-    super(CONCEPTS.Requires$by);
+    super(CONCEPTS.Requires$tf);
   }
 
   @Override
   protected Map<SReferenceLink, ReferenceConstraintsDescriptor> getSpecifiedReferences() {
-    BaseReferenceConstraintsDescriptor d0 = new BaseReferenceConstraintsDescriptor(LINKS.source$44iv, this) {
+    BaseReferenceConstraintsDescriptor d0 = new BaseReferenceConstraintsDescriptor(LINKS.source$eaQ_, this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -43,12 +43,12 @@ public class Requires_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final ReferenceConstraintsContext _context) {
-            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getContextNode()), CONCEPTS.Launch$Hy));
+            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getContextNode()), CONCEPTS.Launch$Zf));
           }
         };
       }
     };
-    BaseReferenceConstraintsDescriptor d1 = new BaseReferenceConstraintsDescriptor(LINKS.target$44w3, this) {
+    BaseReferenceConstraintsDescriptor d1 = new BaseReferenceConstraintsDescriptor(LINKS.target$ehr1, this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;
@@ -63,7 +63,7 @@ public class Requires_Constraints extends BaseConstraintsDescriptor {
           }
           @Override
           public Scope createScope(final ReferenceConstraintsContext _context) {
-            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getContextNode()), CONCEPTS.Need$H3));
+            return ListScope.forNamedElements(SModelOperations.nodes(SNodeOperations.getModel(_context.getContextNode()), CONCEPTS.Need$YK));
           }
         };
       }
@@ -77,13 +77,13 @@ public class Requires_Constraints extends BaseConstraintsDescriptor {
   private static final SNodePointer breakingNode_m9v82a_a0a0a0a0a1a0a0b0c = new SNodePointer("r:34a25c43-ae3b-4daf-83da-115a6acc6c35(M1_3_Nasa.constraints)", "5134746991220557468");
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept Requires$by = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456dL, "M1_3_Nasa.structure.Requires");
-    /*package*/ static final SConcept Launch$Hy = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e033L, "M1_3_Nasa.structure.Launch");
-    /*package*/ static final SConcept Need$H3 = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
+    /*package*/ static final SConcept Requires$tf = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef732456dL, "M1_3_Nasa.structure.Requires");
+    /*package*/ static final SConcept Launch$Zf = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e033L, "M1_3_Nasa.structure.Launch");
+    /*package*/ static final SConcept Need$YK = MetaAdapterFactory.getConcept(0x5af350f1d17747fcL, 0x845f9e68de691f89L, 0x4742492ef6e5e032L, "M1_3_Nasa.structure.Need");
   }
 
   private static final class LINKS {
-    /*package*/ static final SReferenceLink source$44iv = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa93L, "source");
-    /*package*/ static final SReferenceLink target$44w3 = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa9aL, "target");
+    /*package*/ static final SReferenceLink source$eaQ_ = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa93L, "source");
+    /*package*/ static final SReferenceLink target$ehr1 = MetaAdapterFactory.getReferenceLink(0x4b68402a1c7b472dL, 0x8c517b3c81719d43L, 0x7157f84cd376c8cfL, 0x7157f84cd376fa9aL, "target");
   }
 }
